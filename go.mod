@@ -1,4 +1,4 @@
-module GoNews
+module sf-31
 
 go 1.15
 
