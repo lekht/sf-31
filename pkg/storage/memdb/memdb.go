@@ -1,6 +1,6 @@
 package memdb
 
-import "GoNews/pkg/storage"
+import "sf-31/pkg/storage"
 
 // Хранилище данных.
 type Store struct{}

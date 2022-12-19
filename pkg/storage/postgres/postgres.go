@@ -23,6 +23,7 @@ func New(connstr string) (*PostgresDB, error) {
 	if err != nil {
 		return nil, err
 	}
+	defer db.Close()
 	p := PostgresDB{
 		db: db,
 	}
